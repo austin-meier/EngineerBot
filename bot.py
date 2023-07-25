@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands
 from jacket import create_jacket
 
+# Discord token for the bot
 token = ""
 
 intents = discord.Intents.default()
