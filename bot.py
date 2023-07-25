@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 from jacket import create_jacket
 
-token = "MTA5Nzk0NTIyNzkyODU0MzI3Mg.GYqedC.Oige98ulA2Irhy5sTTm5IoobrxYBWucdPLfjFk"
+token = ""
 
 intents = discord.Intents.default()
 intents.message_content = True
