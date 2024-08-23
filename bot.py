@@ -1,9 +1,10 @@
 import discord
+from os import environ
 from discord.ext import commands
 from jacket import create_jacket
 
 # Discord token for the bot
-token = ""
+token = environ['ENGINEER_BOT_TOKEN']
 
 intents = discord.Intents.default()
 intents.message_content = True
